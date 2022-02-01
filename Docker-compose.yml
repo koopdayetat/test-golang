@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: ./
+    image: test-golang
+    container_name: test-golang
+    restart: always
+    ports:
+      - ${APP_EXPOSED_PORT:-0}:8080
