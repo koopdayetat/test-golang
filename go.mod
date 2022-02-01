@@ -1,3 +1,3 @@
-module github.com/test-golang/test-golang
+module github.com/heroku/go-getting-started
 
-go 1.17
+go 1.12
