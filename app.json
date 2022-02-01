@@ -1,0 +1,11 @@
+{
+  "name": "test-golang",
+  "description": "test project in golang.",
+  "keywords": [
+    "test",
+    "Golang",
+    "go-lang"
+  ],
+  "website": "https://github.com/koopdayetat/test-golang",
+  "repository": "https://github.com/koopdayetat/test-golang"
+}
