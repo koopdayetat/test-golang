@@ -21,7 +21,7 @@ func main() {
 		Timeout: time.Second * 2, // Timeout after 2 seconds
 	}
 
-	req, err := http.NewRequest(http.MethodGet, url, nil)
+	req, err := http.NewRequest(http.MethodPost, url, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -50,3 +50,5 @@ func main() {
 
 	fmt.Println(people1.Number)
 }
+
+
